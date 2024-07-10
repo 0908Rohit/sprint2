@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e36810; 
+    color: #120a01; 
+}
+
+/* Alphabetic Italic Styles */
+@font-face {
+    font-family: 'AlphabeticItalic';
+    src: url('path/to/AlphabeticItalic.woff2') format('woff2'),
+         url('path/to/AlphabeticItalic.woff') format('woff');
+    font-style: italic;
+}
+
+body {
+    font-family: 'AlphabeticItalic', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #007bff; 
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #28a745; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; 
+    color: white; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar {
+    background-color: #e50c1b; 
+}
+
+.navbar-brand, .nav-link {
+    color: white !important; 
+}
+
+.nav-link:hover {
+    color: #007bff !important; 
+}
+
+.container {
+    margin-top: 60px; 
+}
